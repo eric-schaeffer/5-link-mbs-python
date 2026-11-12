@@ -162,7 +162,7 @@ r_aP0_ROT = np.tile(r_a_ROT, (5, 1))
 # --- wheel carrier hardpoints in design position (P0) ------------------------
 
 # wheel center, the z value MUST be 0! Slight offset because of the pneumatic trail
-r_bP0_ROT = np.array([112, 850, 0])
+r_bP0_ROT = np.array([112, 850, 0])        # PWC
 P_b0P0_ROT = np.array([138, 713, 0])       # P2
 P_b1P0_ROT = np.array([240, 725, -115])    # P4
 P_b2P0_ROT = np.array([30, 707, -115])     # P6
