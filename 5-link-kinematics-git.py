@@ -1140,6 +1140,10 @@ class LiveMovementBase:
         "trail_over_steer",
         "scrub_over_steer",
         "spring_damper_length_over_steer",
+        "hub_x",
+        "hub_y",
+        "x_contact_patch",
+        "y_contact_patch",
         ]
 
     # number of rows and columns of the 2d subplot grid
@@ -1428,6 +1432,10 @@ class LiveMovementBase:
             'trail_over_steer': kine.trail,
             'scrub_over_steer': kine.scrub,
             'spring_damper_length_over_steer': kine.spring_damper_length,
+            'hub_x': kine.r_b[0],
+            'hub_y': kine.r_b[1],
+            'x_contact_patch': kine.r_b[0] + kine.r_wb[0],
+            'y_contact_patch': kine.r_b[1] + kine.r_wb[1],
             }
 
 
